@@ -27,7 +27,6 @@ class PostRequest extends FormRequest
             'title'=>'required|min:3|max:255',
             'content'=>'required',
             'is_feature'=>'required|boolean',
-
         ];
     }
 }
